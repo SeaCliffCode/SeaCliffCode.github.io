@@ -6,7 +6,7 @@ function myFunction(){
 
 	if(allowedUsers.indexOf(user)!= -1){
 		alert("You are allowed!");
-		window.location.href="http://www.google.com";
+		window.location.href="../homepage.html";
 	}
 
 	else
