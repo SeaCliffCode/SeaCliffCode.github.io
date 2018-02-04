@@ -77,7 +77,8 @@ for (var i = 0; i < squares.length; i++) {
         //grab color of clicked square
         var clickedColor = (this.style.background);
         //compare color to picked color
-
+console.log(clickedColor)
+console.log(pickedColor)
         if(clickedColor === pickedColor){
 
 
