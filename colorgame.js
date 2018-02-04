@@ -75,10 +75,10 @@ for (var i = 0; i < squares.length; i++) {
     //add click litseners to squares
     squares[i].addEventListener("click",function(){
         //grab color of clicked square
-        var clickedColor = (this.style.background);
+        var clickedColor = (this.style.backgroundColor);
         //compare color to picked color
-console.log(clickedColor)
-console.log(pickedColor)
+console.log(clickedColor);
+console.log(pickedColor);
         if(clickedColor === pickedColor){
 
 
